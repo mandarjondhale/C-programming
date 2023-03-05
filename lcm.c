@@ -3,16 +3,16 @@
 int main()
 {
     int x,y,lcm;
-    printf("Enter the numbers : \n");
+    printf("Enter the numbers : \n");   //Taking input from user.
     scanf("%d%d",&x,&y);
     if(x>y)
     {
-        for(int i=x; ;i++)
+        for(int i=x; ;i++)  //Don't know the limit for lcm. That's why no checking condition there.
         {
             if(i%x==0 && i%y==0)
             {
                 lcm=i;
-                break;
+                break; 
             }
         }
     }
